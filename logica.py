@@ -10,7 +10,6 @@ from langchain.chat_models import init_chat_model
 from langchain_core.language_models import BaseChatModel
 from langchain_core.prompts import PromptTemplate
 
-# Cambiar de proveedor solo toca estas tres constantes.
 MODELO = "gemini-3.5-flash-lite"
 PROVEEDOR = "google_genai"
 VARIABLE_CLAVE = "GOOGLE_API_KEY"
